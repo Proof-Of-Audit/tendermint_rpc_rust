@@ -1,0 +1,20 @@
+[package]
+name = "tendermint_rpc"
+version = "0.1.0"
+authors = ["Zaki Manian <zaki@manian.org>"]
+
+[dependencies]
+serde_json = "1.0.9"
+serde = "1.0.27"
+serde_derive = "1.0.27"
+
+[dev-dependencies]
+futures-await = "0.1.0"
+futures = "0.1.18"
+tokio-core = "0.1.12"
+failure = "0.1.1"
+error-chain = "0.11.0"
+
+[dev-dependencies.reqwest]
+version = "0.8.5"
+features = ["unstable"]
